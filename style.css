@@ -1,0 +1,29 @@
+body,html{
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(fondo.jpg) center center;
+  background-size: cover;
+}
+ .contenedor{
+    text-align: center;
+    padding: 20px;
+    background-color: #E95870;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+.boton-redireccion {
+background-color: #F92460;
+color: #fff;
+padding: 10px 20px;
+display: inline-block;
+border-radius: 5px;
+text-decoration: none;
+}
+.boton-redireccion:hover {
+    background-color: #e43d59;
+    }
